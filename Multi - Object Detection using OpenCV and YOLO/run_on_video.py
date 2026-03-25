@@ -112,7 +112,7 @@ def detect_video_cli(args):
     #  Summary
     avg_ms = (t_total / max(limit, 1)) * 1000
     print(f"\n Done!  Output → {args.output}")
-    print(f"⏱  Avg inference: {avg_ms:.1f} ms/frame")
+    print(f" Avg inference: {avg_ms:.1f} ms/frame")
     print(f" Total detections: {sum(all_counts.values())}")
     for cls, n in sorted(all_counts.items(), key=lambda x: -x[1]):
         print(f"   • {cls}: {n}")
