@@ -75,7 +75,7 @@ The video below is the fully annotated output — YOLOv8 running inference on re
 
 <div align="center">
 
-### 📥 `detected.mp4` — 🎯 Annotated Output Video (auto-generated on run)
+### 📥 [`detected.mp4`](./Multi%20-%20Object%20Detection%20using%20OpenCV%20and%20YOLO/detected.mp4) — 🎯 Annotated Output Video
 </div>
 
 > 🟢 **Colored boxes** = detected objects &nbsp;|&nbsp; 🏷️ **Labels** = class name + confidence score &nbsp;|&nbsp; 🔢 **Counter** = frame progress overlay
@@ -141,7 +141,7 @@ The input video is a real-world urban traffic scene captured from dashcam footag
 
 <div align="center">
 
-### 📥 [`cars_youtube.mp4`](./cars_youtube.mp4) — 🚦 Input Dataset Video
+### 📥 [`cars_youtube.mp4`](./Multi%20-%20Object%20Detection%20using%20OpenCV%20and%20YOLO/cars_youtube.mp4) — 🚦 Input Dataset Video
 
 </div>
 
@@ -224,18 +224,18 @@ The input video is a real-world urban traffic scene captured from dashcam footag
 
 ```
 🏗️ ObjectVision/
-└── 📂 Multi - Object Detection using OpenCV and YOLO/
+├── 📄  README.md                          ← 📖 You are here!
+└── 📂  Multi - Object Detection using OpenCV and YOLO/
     │
-    ├── 🖥️  OpenCVgradioapp_video.py   ← Gradio web app (main entry point)
-    ├── ⌨️  run_on_video.py            ← CLI runner for headless processing
-    ├── 🔧  detection_utils.py         ← Reusable CV utility library
+    ├── 🖥️  OpenCVgradioapp_video.py       ← Gradio web app (main entry point)
+    ├── ⌨️  run_on_video.py                ← CLI runner for headless processing
+    ├── 🔧  detection_utils.py             ← Reusable CV utility library
     │
-    ├── 🤖  yolov8n.pt                 ← YOLOv8 nano pretrained weights (COCO)
+    ├── 🤖  yolov8n.pt                     ← YOLOv8 nano pretrained weights (COCO)
     │
-    ├── 📹  cars_youtube.mp4           ← 🎞️ Input dataset video (traffic footage)
-    ├── 🎬  detected.mp4               ← ✅ Auto-generated output (created after running the app)
+    ├── 📹  cars_youtube.mp4               ← 🎞️ Input dataset video (traffic footage)
+    ├── 🎬  detected.mp4                   ← ✅ Auto-generated output (created after running the app)
     │
-    └── 📄  README.md                  ← 📖 You are here!
 ```
 
 ---
@@ -393,3 +393,4 @@ See [`LICENSE`](./LICENSE) for full details.
 [![GitHub Issues](https://img.shields.io/github/issues/ObjectVision/Multi---Object-Detection-using-OpenCV-and-YOLO?style=social)](https://github.com/ObjectVision/Multi---Object-Detection-using-OpenCV-and-YOLO/issues)
 
 </div>
+
