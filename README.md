@@ -75,8 +75,7 @@ The video below is the fully annotated output — YOLOv8 running inference on re
 
 <div align="center">
 
-### 📥 [`detected.mp4`](./detected.mp4) — 🎯 Annotated Output Video
-
+### 📥 `detected.mp4` — 🎯 Annotated Output Video (auto-generated on run)
 </div>
 
 > 🟢 **Colored boxes** = detected objects &nbsp;|&nbsp; 🏷️ **Labels** = class name + confidence score &nbsp;|&nbsp; 🔢 **Counter** = frame progress overlay
@@ -234,7 +233,7 @@ The input video is a real-world urban traffic scene captured from dashcam footag
     ├── 🤖  yolov8n.pt                 ← YOLOv8 nano pretrained weights (COCO)
     │
     ├── 📹  cars_youtube.mp4           ← 🎞️ Input dataset video (traffic footage)
-    ├── 🎬  detected.mp4               ← ✅ Output — annotated detection video
+    ├── 🎬  detected.mp4               ← ✅ Auto-generated output (created after running the app)
     │
     └── 📄  README.md                  ← 📖 You are here!
 ```
